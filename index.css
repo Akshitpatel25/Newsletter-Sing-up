@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #36384d;
+}
+.container {
+    max-width: 1224px;
+    height: 100vh;
+    /* border: 1px solid white; */
+    margin: auto;
+    padding: 50px 10px;
+}
+.logo_thankyou {
+    display: none;
+}
+.box {
+    width: 70%;
+    height: fit-content;
+    /* border: 1px solid white; */
+    margin: auto;
+    border-radius: 30px;
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    /* align-items: normal; */
+    /* flex-direction: column; */
+    
+}
+.box_textarea {
+    width: 55%;
+    height: fit-content;
+    /* border: 1px solid black; */
+    border-radius: 16px;
+    display: flex;
+    /* justify-content: start; */
+    flex-direction: column;
+    padding: 50px;
+    row-gap: 15px;
+}
+.box_h1 {
+    font-size: 60px;
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+}
+.box_textarea p {
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.list {
+    width: 100%;
+    height: fit-content;
+    /* border: 1px solid red; */
+    font-family: 'Roboto', sans-serif;
+}
+
+.list1 {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    font-size: 14px;
+    margin: 10px 0px;
+}
+
+.box_img {
+    width: 45%;
+    height: 550px;
+    border-radius: 20px;
+}
+
+.email {
+    width: 100%;
+    height: fit-content; 
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    padding-top: 10px;
+    /* border: 1px solid black; */
+}
+.email_flex {
+    display: flex;
+    justify-content: space-between;
+}
+.validd {
+    display: none;
+    color: red;
+}
+
+#email {
+    width: 100%;
+    padding: 15px; 
+    font-size: 1em; 
+    margin-top: -10px;
+    border: 1px solid #b0b0b0;
+    border-radius: 5px;
+}
+button {
+    width: 100%;
+    padding: 15px; 
+    font-size: 1em; 
+    background-color: rgb(35, 39, 66);
+    border-radius: 5px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.buttonnn {
+    display: none;
+}
+
+@media (max-width: 735px ) {
+    body {
+        background-color: white;
+    }
+    .container {
+        padding: 0px;
+    }
+    .box {
+        flex-direction: column-reverse;
+        padding: 0px;
+        width: 100%;
+        overflow: hidden;
+        row-gap: 20px;
+        padding-bottom: 40px;
+        border-radius: 0px;
+    }
+    .box_img {
+        margin-top: -110px;
+        width: 100%;
+    }
+    .box_textarea {
+        padding: 0px;
+        align-items: start;
+        width: 90%;
+    }
+}

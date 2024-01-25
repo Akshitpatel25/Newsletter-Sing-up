@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NewsLetter Sign-up</title>
+    <link rel="icon" href="images/icon-list.svg">
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+            <div class="logo_thankyou">
+                <svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" viewBox="0 0 64 64"><defs><linearGradient id="a" x1="100%" x2="0%" y1="0%" y2="100%"><stop offset="0%" stop-color="#FF6A3A"/><stop offset="100%" stop-color="#FF527B"/></linearGradient></defs><g fill="none"><circle cx="32" cy="32" r="32" fill="url(#a)"/><path stroke="#FFF" stroke-width="4" d="m18.286 34.686 8.334 7.98 19.094-18.285"/></g></svg>
+            </div>
+            <div class="box_textarea">
+                <h1 class="box_h1" >Stay update!</h1>
+                <p class="para">Join 60,000+ product manager receiving monthly updates on:</p>
+                <div class="list">
+                    <div class="list1">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21"><g fill="none"><circle cx="10.5" cy="10.5" r="10.5" fill="#FF6155"/><path stroke="#FFF" stroke-width="2" d="M6 11.381 8.735 14 15 8"/></g></svg>  
+                        <span>Product discovering and building what matters</span>
+                    </div>
+                    <div class="list1">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21"><g fill="none"><circle cx="10.5" cy="10.5" r="10.5" fill="#FF6155"/><path stroke="#FFF" stroke-width="2" d="M6 11.381 8.735 14 15 8"/></g></svg>  
+                        <span>Measuring to ensure update are a success</span>
+                    </div>
+                    <div class="list1">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21"><g fill="none"><circle cx="10.5" cy="10.5" r="10.5" fill="#FF6155"/><path stroke="#FFF" stroke-width="2" d="M6 11.381 8.735 14 15 8"/></g></svg>  
+                        <span>And much more!</span>
+                    </div>
+                </div>
+
+                <div class="email">
+                    <div class="email_flex">
+                        <h5>Email address</h5>
+                        <h5 class="validd">Valid email required</h5>
+                    </div>
+                    <br>
+                    <input type="email" id="email" onclick="clearinput()" placeholder="email@company.com">
+                </div>
+                <button class="buttonn" onclick="validateEmail()" >Subscribe to monthly newsletter</button>
+                <button class="buttonnn" onclick="redirect()" >Subscribe to monthly newsletter</button>
+            </div>
+            <img class="box_img" src="images/desktop.png" alt="">
+        </div>
+    </div>
+    <script src="index.js" ></script>
+</body>
+
+</html>
