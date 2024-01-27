@@ -132,7 +132,7 @@ button {
         width: 100%;
     }
     .box_textarea {
-        padding: 0px;
+        padding: 10px;
         align-items: start;
         width: 90%;
     }
